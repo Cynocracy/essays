@@ -31,11 +31,11 @@ The missing axiom here is **Axiom 3** which describes measurement. Here it is in
 > observable $\bf A$ prepares and eigenstate of $\bf A$, and the observer learns
 > the value of the corresponding eigenvalue. If the quantum state just prior to
 > the measurement is $|\psi\rangle$, then the outcome $a_n$ is obtained with
-> *a priori probability* $${\rm Prob}(a_n) = ||{\bf E}_n|\psi\rangle||^2 = \langle \psi |{\bf E}_n |\psi \rangle$$
-> (ed note: here ${\bf E}_n$ is the projector onto the eigenvectors, of $\bf A$ labeled,
-> by the outcome $n$.) if the outcome $a_n$ is attained, then the (normalized) quantum 
+> *a priori probability* ![](https://latex.codecogs.com/svg.latex?\{\rm Prob}(a_n) = ||{\bf E}_n|\psi\rangle||^2 = \langle \psi |{\bf E}_n |\psi \rangle)
+> (ed note: here ![](https://latex.codecogs.com/svg.latex?{\bf E}_n) is the projector onto the eigenvectors, of $\bf A$ labeled,
+> by the outcome ![](https://latex.codecogs.com/svg.latex?n).) if the outcome $a_n$ is attained, then the (normalized) quantum 
 > state just after the measurement is 
-> $$\frac{{\bf E}_n|\psi\rangle}{||{\bf E}_n |\psi\rangle ||}$$
+> ![](https://latex.codecogs.com/svg.latex?\frac{{\bf E}_n|\psi\rangle}{||{\bf E}_n |\psi\rangle ||})
 
 This axiom takes up more length on the page than the other axioms, but it also
 throws out a lot of terminology.  First of all there is an observer.  What is that?
@@ -101,11 +101,11 @@ that these arises from the Church of the Larger Hilbert Space trick.
 
 As a concrete example, consider measurement of a qubit in the computational basis.
 One can describe this as the above axiom 3 applied to an observable with different
-values for $`|0\rangle`$ and $`|1\rangle`$ eigenvectors.  If one is then reasoning
+values for ![](https://latex.codecogs.com/svg.latex?|0\rangle) and ![](https://latex.codecogs.com/svg.latex?|1\rangle) eigenvectors.  If one is then reasoning
 about measurement from within the context of a preparation, unitary, measurement
 framework, then one will need to handle this measurement.  But one can also think 
 about this measurement as a process in which one attaches another qubit to the system,
-initially in the $`|0\rangle`$ state, and applies a controlled-NOT from the original
+initially in the ![](https://latex.codecogs.com/svg.latex?|0\rangle) state, and applies a controlled-NOT from the original
 qubit to this qubit.  If this second qubit is never touched again, then the first system
 will behave as if it was measured.  By thinking about the density matrix after the
 measurement as a purification in a larger pure state, the Church trick, one has
