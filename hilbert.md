@@ -101,11 +101,11 @@ that these arises from the Church of the Larger Hilbert Space trick.
 
 As a concrete example, consider measurement of a qubit in the computational basis.
 One can describe this as the above axiom 3 applied to an observable with different
-values for $|0\rangle$ and $|1\rangle$ eigenvectors.  If one is then reasoning
+values for $`|0\rangle`$ and $`|1\rangle`$ eigenvectors.  If one is then reasoning
 about measurement from within the context of a preparation, unitary, measurement
 framework, then one will need to handle this measurement.  But one can also think 
 about this measurement as a process in which one attaches another qubit to the system,
-initially in the $|0\rangle$ state, and applies a controlled-NOT from the original
+initially in the $`|0\rangle`$ state, and applies a controlled-NOT from the original
 qubit to this qubit.  If this second qubit is never touched again, then the first system
 will behave as if it was measured.  By thinking about the density matrix after the
 measurement as a purification in a larger pure state, the Church trick, one has
